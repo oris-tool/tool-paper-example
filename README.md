@@ -1,8 +1,8 @@
 ### A ready-to-use project on a software rejuvenation example
 
-This repository provides a ready-to-use Maven project that you can easily import into an Eclipse workspace to experiment with the model of software rejuvenation discussed in the following paper:
-"The ORIS Tool: Quantitative Evaluation of Non-Markovian Systems",<br>
-by Marco Paolieri, Marco Biagi, Laura Carnevali, Enrico Vicario,<br>
+This repository provides a ready-to-use Maven project that you can easily import into an Eclipse workspace to experiment with the model of software rejuvenation discussed in the following paper:<br/>
+"The ORIS Tool: Quantitative Evaluation of Non-Markovian Systems",<br/>
+by Marco Paolieri, Marco Biagi, Laura Carnevali, Enrico Vicario,<br/>
 IEEE Transaction on Software Engineering, to appear.
 
 Just follow these steps:
