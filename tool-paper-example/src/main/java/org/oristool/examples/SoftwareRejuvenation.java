@@ -259,5 +259,4 @@ public class SoftwareRejuvenation {
         
         return solution;
     }
-    
 }
