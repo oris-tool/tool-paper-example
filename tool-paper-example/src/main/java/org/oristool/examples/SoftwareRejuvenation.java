@@ -94,7 +94,13 @@ public class SoftwareRejuvenation {
 		// detect is a GEN transition with uniform distribution over [0,4] and with update function "Wait=0;"
 		detect.addFeature(new PostUpdater("Wait=0", net));
 		detect.addFeature(StochasticTransitionFeature.newUniformInstance(new BigDecimal("0"), new BigDecimal("4")));
-		
+
+		// The failure time is observed to be: 
+		// lower than 72 h (3 days) with probability 0.001
+		// lower than 144 h (6 days) with probability 0.006
+		// lower than 216 h (9 days) with probability 0:016
+		// larger than 216 h (9 days) with probability 0.984 and mean value equal to 672 h (28 days)
+
 		// fail is a GEN transition with piece-wise distribution represented over 4 intervals
 		List<GEN> fail_gens = new ArrayList<>();
 
